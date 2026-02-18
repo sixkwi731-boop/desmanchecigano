@@ -1,4 +1,42 @@
 /* =============================================
+   Popup de boas-vindas
+   ============================================= */
+(function () {
+  var overlay  = document.getElementById('popupOverlay');
+  var closeBtn = document.getElementById('popupClose');
+  var skipBtn  = document.getElementById('popupSkip');
+
+  if (!overlay) return;
+
+  function openPopup() {
+    overlay.classList.add('popup--visible');
+  }
+
+  function closePopup() {
+    overlay.classList.remove('popup--visible');
+    sessionStorage.setItem('popupShown', '1');
+  }
+
+  // Só mostra uma vez por sessão
+  if (!sessionStorage.getItem('popupShown')) {
+    setTimeout(openPopup, 4000);
+  }
+
+  closeBtn.addEventListener('click', closePopup);
+  skipBtn.addEventListener('click', closePopup);
+
+  // Fecha ao clicar fora da caixa
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) closePopup();
+  });
+
+  // Fecha com ESC
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePopup();
+  });
+})();
+
+/* =============================================
    Botão Flutuante WhatsApp — mensagens rotativas
    ============================================= */
 (function () {
