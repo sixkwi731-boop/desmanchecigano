@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#D40000">
+
+  <!-- Favicon / Ícone do navegador -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <title>Desmanche Cigano - Peças Automotivas Semi-Novas em Praia Grande – SP</title>
+  <meta name="description" content="Desmanche Cigano – Peças automotivas semi-novas com qualidade e procedência. Entregamos para todo o Brasil. Praia Grande – SP.">
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Desmanche Cigano – Peças Automotivas Semi-Novas">
+  <meta property="og:description" content="Peças com qualidade e procedência. Entregamos para todo o Brasil. Praia Grande – SP.">
+  <meta property="og:image"       content="icon.png">
+  <meta property="og:url"         content="https://desmanchecigano.com.br">
+  <meta property="og:locale"      content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Desmanche Cigano – Peças Automotivas Semi-Novas">
+  <meta name="twitter:description" content="Peças com qualidade e procedência. Entregamos para todo o Brasil. Praia Grande – SP.">
+  <meta name="twitter:image"       content="icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Desmanche Cigano – Peças Automotivas Semi-Novas" class="logo-img">
+      </a>
+
+      <!-- Nav Desktop -->
+      <nav class="header-nav" id="headerNav" aria-label="Menu principal">
+        <a href="#" class="header-nav-link">Início</a>
+        <a href="#diferenciais" class="header-nav-link">Serviços</a>
+        <a href="#depoimentos" class="header-nav-link">Clientes</a>
+        <a href="#historia" class="header-nav-link">Sobre</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="https://api.whatsapp.com/send?phone=551330848000" class="btn btn-pedido" target="_blank" rel="noopener" aria-label="Fazer pedido pelo WhatsApp">
+        <svg class="btn-pedido-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.553 4.116 1.524 5.847L.057 23.886a.5.5 0 0 0 .612.612l6.163-1.526A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 21.818a9.814 9.814 0 0 1-5.012-1.374l-.36-.214-3.733.924.944-3.655-.234-.376A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818"/></svg>
+        <span class="btn-pedido-label">Pedido Online</span>
+      </a>
+
+      <!-- Hamburger mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="headerNav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <picture>
+        <!-- Mobile: até 700px -->
+        <source media="(max-width: 700px)" srcset="banner-hero-mobile.png">
+        <!-- Tablet: até 1024px -->
+        <source media="(max-width: 1024px)" srcset="banner-hero-tablet.png">
+        <!-- Desktop: acima de 1024px -->
+        <img
+          class="hero-banner-img"
+          src="banner-hero.png"
+          alt="Saldão de Auto Peças – Desmanche Cigano"
+          loading="eager"
+          decoding="async"
+        >
+      </picture>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="stats-pattern" aria-hidden="true"></div>
+      <div class="container stats-grid">
+
+        <div class="stat-card anim anim--fade-up" style="--anim-delay:0s">
+          <div class="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <span class="stat-number" data-count="13" data-suffix="+">13+</span>
+          <span class="stat-line" aria-hidden="true"></span>
+          <span class="stat-label">Anos de Mercado</span>
+        </div>
+
+        <div class="stat-divider" aria-hidden="true"></div>
+
+        <div class="stat-card anim anim--fade-up" style="--anim-delay:0.12s">
+          <div class="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="stat-number" data-count="700" data-suffix="m²">700m²</span>
+          <span class="stat-line" aria-hidden="true"></span>
+          <span class="stat-label">Área de Estoque</span>
+        </div>
+
+        <div class="stat-divider" aria-hidden="true"></div>
+
+        <div class="stat-card anim anim--fade-up" style="--anim-delay:0.24s">
+          <div class="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <span class="stat-number" data-count="100" data-suffix="%">100%</span>
+          <span class="stat-line" aria-hidden="true"></span>
+          <span class="stat-label">Clientes Satisfeitos</span>
+        </div>
+
+        <div class="stat-divider" aria-hidden="true"></div>
+
+        <div class="stat-card anim anim--fade-up" style="--anim-delay:0.36s">
+          <div class="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="stat-number">Brasil</span>
+          <span class="stat-line" aria-hidden="true"></span>
+          <span class="stat-label">Envio Nacional</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="diferenciais" id="diferenciais">
+      <div class="diferenciais-gear" aria-hidden="true"></div>
+      <div class="container">
+        <p class="diferenciais-tag anim anim--fade-up" style="--anim-delay:0s">Por que nos escolher?</p>
+        <h2 class="diferenciais-title anim anim--fade-up" style="--anim-delay:0.1s">
+          <span class="diferenciais-title-line1">Diferenciais que</span>
+          <span class="diferenciais-title-line2">fazem a diferença.</span>
+        </h2>
+        <div class="diferenciais-grid">
+          <article class="diferencial-card anim anim--fade-up" style="--anim-delay:0s">
+            <div class="diferencial-icon-box">
+              <svg class="diferencial-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            </div>
+            <h3>Nacionais & Importados</h3>
+            <p>Vasto estoque de peças para veículos leves e pesados de todas as marcas.</p>
+          </article>
+          <article class="diferencial-card anim anim--fade-up" style="--anim-delay:0.12s">
+            <div class="diferencial-icon-box">
+              <svg class="diferencial-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Equipe Técnica</h3>
+            <p>Mecânicos qualificados garantindo a revisão e procedência de cada componente.</p>
+          </article>
+          <article class="diferencial-card anim anim--fade-up" style="--anim-delay:0.24s">
+            <div class="diferencial-icon-box">
+              <svg class="diferencial-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3>Entrega Ágil</h3>
+            <p>Logística integrada para envios rápidos de peças e motores para todo o país.</p>
+          </article>
+          <article class="diferencial-card anim anim--fade-up" style="--anim-delay:0.36s">
+            <div class="diferencial-icon-box">
+              <svg class="diferencial-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Garantia Total</h3>
+            <p>Todas as peças cadastradas com Nota Fiscal e garantia de funcionamento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos" id="depoimentos">
+      <div class="depoimentos-bg"></div>
+      <div class="container depoimentos-container">
+        <h2 class="depoimentos-title anim anim--fade-up" style="--anim-delay:0s">
+          <span class="depoimentos-title-white">Vozes de</span>
+          <span class="depoimentos-title-orange">Confiança</span>
+        </h2>
+
+        <!-- Carrossel -->
+        <div class="depoimentos-slider anim anim--fade-up" style="--anim-delay:0.15s" aria-label="Depoimentos de clientes">
+          <div class="depoimentos-track" id="depoimentosTrack">
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Excelente atendimento, peças de qualidade e preço justo. Recomendo muito!</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Marileni G.</strong>
+                <span>Cliente Particular</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Entregaram rápido e tudo certo, bem embalado e máquina funcionando perfeitamente.</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Glauco M.</strong>
+                <span>Mecânica Automotiva</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Gostei do prazo de entrega, foram pontuais e as informações do andamento nos deixam seguros.</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Dario F.</strong>
+                <span>Logística</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Peça chegou em perfeito estado, bem acondicionada e no prazo combinado. Empresa séria e confiável!</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Roberto S.</strong>
+                <span>Oficina Mecânica</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Motor comprado funcionando perfeitamente. Atendimento atencioso e nota fiscal emitida na hora.</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Fernanda L.</strong>
+                <span>Cliente Particular</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Já comprei câmbio e suspensão aqui. Preço justo, qualidade garantida e entrega rápida para o interior.</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Carlos H.</strong>
+                <span>Mecânica Automotiva</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="depoimento-card">
+              <span class="depoimento-aspas">"</span>
+              <p class="depoimento-texto">Recomendo de olhos fechados. Peças originais com procedência e garantia. Equipe muito bem preparada.</p>
+              <div class="depoimento-stars">★★★★★</div>
+              <footer>
+                <strong>Alessandra P.</strong>
+                <span>Frota Empresarial</span>
+              </footer>
+            </blockquote>
+
+          </div>
+        </div>
+
+        <!-- Controles -->
+        <div class="depoimentos-controles">
+          <button type="button" class="dep-btn dep-prev" id="depPrev" aria-label="Depoimento anterior">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
+          <div class="dep-dots" id="depDots"></div>
+          <button type="button" class="dep-btn dep-next" id="depNext" aria-label="Próximo depoimento">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- História -->
+    <section class="historia" id="historia">
+      <div class="historia-overlay"></div>
+      <div class="container historia-inner">
+        <div class="historia-barra anim anim--slide-left" style="--anim-delay:0s" aria-hidden="true"></div>
+        <div class="historia-content">
+          <h2 class="historia-title anim anim--slide-left" style="--anim-delay:0.1s">
+            <span class="historia-title-white">Tradição que</span>
+            <span class="historia-title-orange">Gera Valor.</span>
+          </h2>
+          <p class="historia-texto anim anim--slide-left" style="--anim-delay:0.25s">
+            Há 13 anos no mercado de desmonte de veículos, consolidamos parcerias que transcendem o comercial. Nossos 700m² de estoque são monitorados rigorosamente para garantir a integridade de cada motor, câmbio e acessório.
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=551330848000" class="btn btn-historia anim anim--slide-left" style="--anim-delay:0.4s" target="_blank" rel="noopener">Nossa História</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2 class="cta-title anim anim--zoom" style="--anim-delay:0s">
+          <span class="cta-title-black">Pronto para</span>
+          <span class="cta-title-orange">Acelerar?</span>
+        </h2>
+        <p class="cta-desc anim anim--fade-up" style="--anim-delay:0.2s">Cote sua peça agora pelo WhatsApp</p>
+        <a href="https://api.whatsapp.com/send?phone=551330848000" class="btn btn-cta-dark anim anim--fade-up" style="--anim-delay:0.35s" target="_blank" rel="noopener">Abrir WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <!-- Coluna 1: Logo + descrição -->
+      <div class="footer-col footer-col--brand anim anim--fade-up" style="--anim-delay:0s">
+        <a href="#" class="footer-logo">
+          <span class="footer-logo-white">Desmanche</span>
+          <span class="footer-logo-orange"> Cigano</span>
+        </a>
+        <p class="footer-desc">
+          Excelência técnica e compromisso ambiental no desmonte de veículos. A maior referência de Praia Grande em peças semi-novas.
+        </p>
+      </div>
+
+      <!-- Coluna 2: Navegação -->
+      <div class="footer-col anim anim--fade-up" style="--anim-delay:0.15s">
+        <h4 class="footer-heading">Navegação</h4>
+        <nav class="footer-nav">
+          <a href="#">Início</a>
+          <a href="#diferenciais">Peças</a>
+          <a href="#diferenciais">Serviços</a>
+          <a href="https://api.whatsapp.com/send?phone=551330848000" target="_blank" rel="noopener">Contato</a>
+        </nav>
+      </div>
+
+      <!-- Coluna 3: Contato -->
+      <div class="footer-col anim anim--fade-up" style="--anim-delay:0.3s">
+        <h4 class="footer-heading">Contato Direto</h4>
+        <ul class="footer-contato">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.71 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71a2 2 0 0 1 1.72 2z"/></svg>
+            <a href="tel:+551330848000">(13) 3084-8000</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:contato@desmanchecigano.com.br">contato@desmanchecigano.com.br</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Av. Diamantino Cruz Ferreira Mourão, n.° 30.848 · Jardim Samambaia, Praia Grande – SP, 11714-630</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Barra inferior -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Desmanche Cigano.</p>
+        <a href="#">Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante WhatsApp -->
+  <div class="wpp-float" id="wppFloat">
+
+    <!-- Balão de mensagem rotativa -->
+    <div class="wpp-bubble" id="wppBubble" aria-live="polite">
+      <button class="wpp-bubble-close" id="wppBubbleClose" aria-label="Fechar mensagem">×</button>
+      <p class="wpp-bubble-text" id="wppBubbleText"></p>
+    </div>
+
+    <!-- Botão principal -->
+    <a href="https://api.whatsapp.com/send?phone=551330848000&text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7as."
+       class="wpp-btn" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+      <span class="wpp-pulse" aria-hidden="true"></span>
+      <span class="wpp-pulse wpp-pulse--delay" aria-hidden="true"></span>
+      <svg class="wpp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.553 4.116 1.524 5.847L.057 23.886a.5.5 0 0 0 .612.612l6.163-1.526A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 21.818a9.814 9.814 0 0 1-5.012-1.374l-.36-.214-3.733.924.944-3.655-.234-.376A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818"/>
+      </svg>
+    </a>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
